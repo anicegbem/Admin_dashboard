@@ -22,12 +22,35 @@ main {
 }
 
 header {
+    display: grid;
+    grid-template-columns: 4fr 2fr;
     grid-area: header;
 }
 
 .dashboard {
     display: grid;
     grid-area: dashboard;
-    padding: 20px;
+    grid-template-rows: 100px 400px auto;
+    padding-left: 20px;
+    /* border: 2px #000 solid; */
 }
+
+#search-icons {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.header-info {
+    display: grid;
+    grid-template-columns: 100px 400px;
+}
+
+#search {
+    display: grid;
+    grid-template-columns: 20px 400px;
+}
+
+/* .dashboard > div {
+    display: inline-block;
+} */
 
