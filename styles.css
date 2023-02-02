@@ -1,0 +1,33 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    grid-template-areas: 
+    "dashboard header"
+    "dashboard main";
+}
+
+main {
+    grid-area: main;
+}
+
+header {
+    grid-area: header;
+}
+
+.dashboard {
+    display: grid;
+    grid-area: dashboard;
+    padding: 20px;
+}
+
