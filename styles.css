@@ -37,14 +37,39 @@ header {
     /* border: 2px #000 solid; */
 }
 
-#search-icons {
+#second-icons {
     display: grid;
-    grid-auto-flow: column;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-columns: 70px 60px 200px;
+    grid-auto-flow: row;
+    align-items: start;
 }
+#second-icons > img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+#second-icons > span {
+    display: inline;
+}
+
 
 .header-info {
     display: grid;
-    grid-template-columns: 100px 400px;
+    grid-template-columns: 80px 400px;
+    padding-top: 20px;
+    
+}
+
+.header-info > img {
+    width: 70%;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.header-first > #search {
+    display: grid;
+    gap: 20px;
 }
 
 #search {
