@@ -163,12 +163,13 @@ header {
     padding-left: 20px;
     background-color: #3b82f6;
     padding-top: 20px;
-    /* border: 2px #000 solid; */
+    
 }
 .dashboard-head {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 45px 80px;
+    
 }
 
 .dashboard-head > span:nth-child(2) {
@@ -184,8 +185,25 @@ header {
     font-weight: lighter;
 }
 
+.dashboard-body, .dashboard-footer {
+    margin-left: 10px;
+}
+
 .dashboard-body > div {
-    margin-right: 50px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 35px 80px;
+    margin-bottom: 20px;
+    
+    
+}
+.dashboard-footer > div {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 35px 80px;
+    margin-bottom: 20px;
+    
+    
 }
 
 .dashboard-head > .iconify {
