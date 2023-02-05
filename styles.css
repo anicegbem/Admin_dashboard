@@ -245,12 +245,41 @@ header {
 
 .side-card {
     background-color: #f8fafc;
-    font-size: 88.2%;
+    font-size: 65%;
     padding: 25px;
+    border-radius: 8px;
 
 }
 
+.site-maintenance div:not(:nth-child(3n)) {
+    border-bottom: 1px solid #9ca3af;
+   
+}
 
+.site-maintenance div {
+    padding: 20px 0;
+}
+
+.site-maintenance span {
+    font-weight: bold;
+    font-size: larger;
+    padding-bottom: 12px;
+}
+
+.trending-inner {
+    margin-top: 10px;
+}
+
+.trending-inner img {
+    width: 15%;
+    
+}
+
+.trending-title {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
 
 
 
