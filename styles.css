@@ -27,6 +27,7 @@ main {
     padding-top: 30px;
     background-color: #e2e8f0;
     gap: 30px;
+    
 }
 
 .project-inner {
@@ -209,10 +210,6 @@ header {
     
 }
 
-.dashboard-head > .iconify {
-    
-}
-
 /* Card */
 .card {
     position: relative;
@@ -238,9 +235,23 @@ header {
     font-size: larger;
 }
 
-/* .card > .main-icons > span {
-    margin-right: 10px;
-} */
+/* Announcements */
+.announcements {
+    display: grid;
+    /* grid-template-rows: min-content min-content; */
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.side-card {
+    background-color: #f8fafc;
+    font-size: 88.2%;
+    padding: 25px;
+
+}
+
+
+
 
 
 
